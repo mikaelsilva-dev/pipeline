@@ -1,6 +1,4 @@
-from app.cl import Test
-
-
+from app.vars import Test
 
 def test_init():
     try:
@@ -22,3 +20,9 @@ def test_var2():
 def test_var3():
     d = Test()
     assert d.var3 == "teste"
+
+
+if __name__ == "__main__":
+    d = Test()
+    print(d.var1)
+    print('oi')

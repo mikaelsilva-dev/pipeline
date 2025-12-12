@@ -1,9 +1,9 @@
-from cl import Test
+from vars import Test
 
 
 if __name__ == "__main__":
     print('Valores da funcionalidade')
     c = Test()
-    print(c.var1)
-    print(c.var2)
-    print(c.var3)
+    print(c.func_var1())
+    print(c.func_var2())
+    print(c.func_var3())
